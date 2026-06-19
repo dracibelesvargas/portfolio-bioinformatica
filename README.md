@@ -19,6 +19,12 @@ bioinformática estrutural.
 | 03 | Desenvolvimento de Ferramentas | [`projects/03-tool-development`](projects/03-tool-development) | 🚧 em planejamento |
 | 04 | Bioinformática Estrutural & Proteínas | [`projects/04-structural-proteins`](projects/04-structural-proteins) | 🚧 em planejamento |
 
+## Projeto em destaque
+
+**[Inflammaging — análise de transcriptoma](projects/inflammaging-transcriptomics)** —
+caracterização da assinatura inflamatória do envelhecimento a partir de dados públicos
+de transcriptoma (R/Bioconductor). Fase 1 (revisão dos dados disponíveis) concluída.
+
 ## Ambiente
 
 O ambiente base usa **Python** (via Anaconda/conda). Para reproduzir:
