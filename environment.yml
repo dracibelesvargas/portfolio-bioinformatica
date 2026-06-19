@@ -1,0 +1,22 @@
+name: bioinfo
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  # Data science / estatística
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  # Bioinformática (Python)
+  - biopython
+  # Qualidade de código
+  - pytest
+  - ruff
+  # Adicione ferramentas de NGS por projeto (ex.: samtools, bwa, fastqc)
+  # via os environment.yml de cada projeto para manter o ambiente base leve.

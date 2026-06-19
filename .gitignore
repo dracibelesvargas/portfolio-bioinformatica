@@ -1,0 +1,73 @@
+# ---------- Dados ----------
+# Dados brutos/grandes não devem ser versionados. Use scripts de download.
+data/
+*.csv
+*.tsv
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.sam
+*.cram
+*.vcf
+*.vcf.gz
+*.bcf
+*.bed
+*.gff
+*.gff3
+*.gtf
+*.fa
+*.fasta
+*.fai
+*.pdb
+*.cif
+*.mmcif
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.parquet
+# Exceções: mantenha amostras pequenas se necessário
+!data/sample/**
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# ---------- Conda ----------
+.conda/
+
+# ---------- R ----------
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# ---------- Jupyter ----------
+*.ipynb_checkpoints
+
+# ---------- Editores / IDEs ----------
+.vscode/
+.idea/
+*.swp
+
+# ---------- SO ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Segredos / config local ----------
+.env
+*.local
