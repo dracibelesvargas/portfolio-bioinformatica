@@ -1,4 +1,4 @@
-# 01 — Data Science & Estatística
+# 01 - Data Science & Estatística
 
 Análise estatística e ciência de dados aplicada a dados biológicos.
 
